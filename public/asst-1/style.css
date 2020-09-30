@@ -45,3 +45,22 @@ html, body {
     flex-direction: column;
     display: flex;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 640px;
+    min-height: 100%;
+  }
+
+  .col1 {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20.15px;
+  }
+
+  .col2 {
+    display: flex;
+  }

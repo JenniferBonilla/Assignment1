@@ -33,10 +33,7 @@ html, body {
     padding-top: 20.15px;
   }
   
-   img {
-    border-radius: 4px;
-    border-width: 1px;
-  }
+
   .content {
     background: #fff;
     border: 2px dotted rgb(221, 221, 221);
@@ -60,14 +57,26 @@ html, body {
     max-width: 640px;
     min-height: 100%;
   }
+  .container{
+    justify-content: center;
+  }
 
   .col1 {
     display: flex;
     margin: 0 auto;
     padding-top: 20.15px;
     margin-right: 15px;
+    flex: 0 1 auto;
   }
 
   .col2 {
     display: flex;
+  }
+
+
+
+  .col1 img{
+    border-radius:4px;
+    border-width:1px;
+    border-style: solid;
   }

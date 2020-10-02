@@ -59,10 +59,7 @@ html, body {
     min-height: 100%;
     float: inline-start;
   }
-  .container{
-    justify-content: center;
-  }
-
+  
   .col1 {
     display: flex;
     margin: 0 auto;

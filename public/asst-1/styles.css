@@ -82,3 +82,13 @@ html, body {
     border-width:1px;
     border-style: solid;
   }
+  @media  (max-width: 1000px) {
+    .container {
+      justify-content: center;
+    }
+
+    .col1{
+      flex: 1 0 auto;
+      margin-right: 0px;
+    }
+  }

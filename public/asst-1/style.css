@@ -8,7 +8,7 @@ html, body {
   }
   
   body {
-    width: 70%;
+    width: 100%;
     min-width: 800px;
     margin: 0 auto;
     background-color: #f7cff0;
@@ -22,15 +22,16 @@ html, body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0;
+    margin: 10;
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 4px;
+    width: 100%;
   }
   .header img {
     display: block;
     height: 200px;
-    padding-top: 20.15px;
+    padding-top: 15px;
   }
   
 
@@ -57,7 +58,7 @@ html, body {
     justify-content: space-between;
     max-width: 640px;
     min-height: 100%;
-    float: inline-start;
+    float: left;
   }
   
   .col1 {

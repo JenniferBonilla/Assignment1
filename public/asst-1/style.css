@@ -41,6 +41,7 @@ html, body {
     flex: 0 0 200px;
     padding: 10px;
     overflow-wrap: break-word;
+    width: 960px;
   }
 
   .wrapper {
@@ -56,6 +57,7 @@ html, body {
     justify-content: space-between;
     max-width: 640px;
     min-height: 100%;
+    float: inline-start;
   }
   .container{
     justify-content: center;
@@ -67,11 +69,13 @@ html, body {
     padding-top: 20.15px;
     margin-right: 15px;
     flex: 0 1 auto;
+    background: #fff;
   }
 
   .col2 {
     display: flex;
     padding: 20px;
+    background: #fff;
   }
 
 
@@ -81,5 +85,3 @@ html, body {
     border-width:1px;
     border-style: solid;
   }
-
- 

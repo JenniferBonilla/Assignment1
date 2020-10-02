@@ -71,6 +71,7 @@ html, body {
 
   .col2 {
     display: flex;
+    padding: 20px;
   }
 
 
@@ -80,3 +81,5 @@ html, body {
     border-width:1px;
     border-style: solid;
   }
+
+ 

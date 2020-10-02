@@ -57,10 +57,7 @@ html, body {
     max-width: 640px;
     min-height: 100%;
   }
-  .container{
-    justify-content: center;
-  }
-
+  
   .col1 {
     display: flex;
     margin: 0 auto;
@@ -71,7 +68,6 @@ html, body {
 
   .col2 {
     display: flex;
-    padding: 20px;
   }
 
 
@@ -81,5 +77,3 @@ html, body {
     border-width:1px;
     border-style: solid;
   }
-
- 
